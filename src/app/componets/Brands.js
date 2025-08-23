@@ -37,7 +37,7 @@ const Brand = () => {
           <Col xxl={12} xl={12} lg={12} md={12} sm={12} xs={12}>
             <Swiper
               modules={[Autoplay]}
-              spaceBetween={20}
+              spaceBetween={40}
               slidesPerView={7}
               className="brand_Swiper"
               loop={true}
@@ -48,6 +48,40 @@ const Brand = () => {
               }}
               onSwiper={(swiper) => {
                 swiperRef.current = swiper;
+              }} 
+              breakpoints={{
+                // Smaller phones
+                320: { slidesPerView: 3, spaceBetween: 10 },
+
+                // 361px - 575px
+                361: { slidesPerView: 3, spaceBetween: 15 },
+
+                // 576px - 767px
+                576: { slidesPerView: 4, spaceBetween: 20 },
+
+                // 768px - 991px (tablets)
+                768: { slidesPerView:  5, spaceBetween: 20 },
+
+                // 992px - 1199px (mewdium desktops)
+                992: { slidesPerView:  5, spaceBetween: 25 },
+
+                // 1200px - 1299px
+                1200: { slidesPerView: 6, spaceBetween: 25 },
+
+                // 1300px - 1399px
+                1300: { slidesPerView: 6, spaceBetween: 30 },
+
+                // 1400px - 1599px
+                1400: { slidesPerView: 6, spaceBetween: 30 },
+
+                // 1600px - 1679px
+                1600: { slidesPerView: 6, spaceBetween: 35 },
+
+                // 1680px - 1919px
+                1680: { slidesPerView: 6, spaceBetween: 35 },
+
+                // 1920px and above
+                1920: { slidesPerView: 7, spaceBetween: 40 },
               }}
               onMouseEnter={() => swiperRef.current?.autoplay.stop()}
               onMouseLeave={() => swiperRef.current?.autoplay.start()}

@@ -15,7 +15,7 @@ const CardProduct = () => {
         <section className="product_section">
             <Container>
                 <Row>
-                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={12}>
+                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={6}>
                         <div className="card_area">
                             <Link href="#">
                                 <div className="card_area_img">
@@ -26,7 +26,7 @@ const CardProduct = () => {
                                 </p></Link>
                         </div>
                     </Col>
-                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={12}>
+                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={6}>
                         <div className="card_area">
                             <Link href="#">
                                 <div className="card_area_img">
@@ -37,8 +37,8 @@ const CardProduct = () => {
                                 </p>
                             </Link>
                         </div>
-                    </Col>   
-                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={12}>
+                    </Col>
+                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={6}>
                         <div className="card_area">
 
                             <Link href="#">
@@ -52,7 +52,7 @@ const CardProduct = () => {
                             {/* </div> */}
                         </div>
                     </Col>
-                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={12}>
+                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={6}>
                         <div className="card_area">
                             <Link href="#">
                                 <div className="card_area_img">
@@ -64,7 +64,7 @@ const CardProduct = () => {
                             </Link>
                         </div>
                     </Col>
-                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={12}>
+                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={6}>
                         <div className="card_area">
                             <Link href="#">
                                 <div className="card_area_img">
@@ -75,7 +75,7 @@ const CardProduct = () => {
                                 </p></Link>
                         </div>
                     </Col>
-                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={12}>
+                    <Col xxl={2} xl={2} lg={3} md={4} sm={6} xs={6}>
                         <div className="card_area">
                             <Link href="#">
                                 <div className="card_area_img">
