@@ -4,10 +4,10 @@ import "../../public/sass/base/reset.scss";
 import "../../public/sass/base/helper.scss";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from './componets/header';
+import Footer from './componets/footer';
 // import Header from "./components/header";
 // import Footer from "./components/footer";
-import Header from "./(auth)/login/page";
-import Footer from "./(auth)/logout/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-      <Header/>
+      <Header />
       {children}
       <Footer/>
     </body>
